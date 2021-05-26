@@ -31,7 +31,7 @@ case 2: item=dequeue();
         if(item==0){
         System.out.println("Queue empty");}
         else{
-            System.out.print(item + "is deleted\n");}
+            System.out.print(item + " is deleted\n");}
         
         break;
 case 3: display();
@@ -59,7 +59,7 @@ static void enqueue(int item){
    
     queue[rear]=item;
     rear++;
-    System.out.println(item + "is inserted");
+    System.out.println(item + " is inserted");
  }
 }
  static boolean isFull(){
